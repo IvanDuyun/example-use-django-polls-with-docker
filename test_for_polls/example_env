@@ -1,0 +1,16 @@
+SECRET_KEY = YOUR_SECRET_KEY
+ALLOWED_HOSTS = YOUR_ALLOWED_HOSTS
+
+ALLOWED_HOSTS=['*', '172.0.0.1']
+
+#ENGINE = django.db.backends.sqlite3 (unable to open database file)
+#NAME = BASE_DIR / 'db.sqlite3' (unable to open database file)
+
+#if no sqlite3:
+USER =
+PASSWORD =
+HOST =
+PORT =
+
+CELERY_BROKER_URL = redis://localhost:6379
+CELERY_RESULT_BACKEND = redis://localhost:6379
