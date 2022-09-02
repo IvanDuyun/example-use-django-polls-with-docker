@@ -1,0 +1,157 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/ivan/PycharmProjects/TestForPolls/test_for_polls/__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /polls/for_test_celery/
+Traceback (most recent call last):
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/views.py", line 33, in test_celery
+    r = simulate_background_task.apply_async(args=(2, 2))
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/app/task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: simulate_background_task() missing 1 required positional argument: 'y'
+Watching for file changes with StatReloader
+Internal Server Error: /polls/for_test_celery/
+Traceback (most recent call last):
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/views.py", line 33, in test_celery
+    r = simulate_background_task.apply_async(x=2, y=2)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/app/task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: simulate_background_task() missing 3 required positional arguments: 'self', 'x', and 'y'
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /polls/for_test_celery/
+Traceback (most recent call last):
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/views.py", line 34, in test_celery
+    r = simulate_background_task.apply_async(args=(a, b))
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/app/task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: simulate_background_task() missing 1 required positional argument: 'y'
+Watching for file changes with StatReloader
+Internal Server Error: /polls/for_test_celery/
+Traceback (most recent call last):
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/views.py", line 34, in test_celery
+    r = simulate_background_task.apply_async(args=(x, y))
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/app/task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: simulate_background_task() missing 1 required positional argument: 'y'
+Watching for file changes with StatReloader
+Internal Server Error: /polls/for_test_celery/
+Traceback (most recent call last):
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/views.py", line 28, in test_celery
+    result = simulate_background_task.delay(2, 2)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/app/task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/app/task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: simulate_background_task() missing 1 required positional argument: 'y'
+Watching for file changes with StatReloader
+Internal Server Error: /polls/for_test_celery/
+Traceback (most recent call last):
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/views.py", line 29, in test_celery
+    return HttpResponse('Start calculate ' + simulate_background_task.delay(2, 2).get())
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/app/task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/app/task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: simulate_background_task() missing 1 required positional argument: 'y'
+Watching for file changes with StatReloader
+Internal Server Error: /polls/for_test_celery/
+Traceback (most recent call last):
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/views.py", line 29, in test_celery
+    return HttpResponse('Start calculate ' + simulate_background_task.delay(2, 2).get())
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/result.py", line 224, in get
+    return self.backend.wait_for_pending(
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/backends/base.py", line 756, in wait_for_pending
+    meta = self.wait_for(
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/backends/base.py", line 1087, in _is_disabled
+    raise NotImplementedError(E_NO_BACKEND.strip())
+NotImplementedError: No result backend is configured.
+Please see the documentation for more information.
+Internal Server Error: /polls/for_test_celery/
+Traceback (most recent call last):
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/views.py", line 29, in test_celery
+    return HttpResponse('Start calculate ' + simulate_background_task.delay(2, 2).get())
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/result.py", line 224, in get
+    return self.backend.wait_for_pending(
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/backends/base.py", line 756, in wait_for_pending
+    meta = self.wait_for(
+  File "/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/celery/backends/base.py", line 1087, in _is_disabled
+    raise NotImplementedError(E_NO_BACKEND.strip())
+NotImplementedError: No result backend is configured.
+Please see the documentation for more information.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/ivan/PycharmProjects/TestForPolls/venv/lib/python3.10/site-packages/polls/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /
